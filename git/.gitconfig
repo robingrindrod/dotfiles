@@ -1,3 +1,5 @@
 [user]
 	name = Robin Grindrod
 	email = robingrindrod@live.ie
+[alias]
+	graph = log --oneline --graph --decorate --all
