@@ -25,3 +25,11 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardsTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
+
+" Tab settings
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+
+autocmd Filetype html setlocal tabstop=2 softtabstop=2 shiftwidth=2
