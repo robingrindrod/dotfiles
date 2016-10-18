@@ -9,7 +9,19 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Manage Vundle itself
 Plugin 'VundleVim/Vundle.vim'
+
+" Other plugins
+
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 call vundle#end()
 filetype plugin indent on
+
+" Ultisnips configuration
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardsTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical"
