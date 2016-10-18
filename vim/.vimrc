@@ -2,6 +2,9 @@
 set number
 set relativenumber
 
+" Turn syntax highlighting on
+syntax on
+
 " Configuration required for Vundle
 set nocompatible
 filetype off
