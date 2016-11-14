@@ -20,3 +20,19 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+# Make system administration tools available on the path
+if [ -d "/sbin" ]
+then
+    PATH="$PATH:/sbin"
+fi
+
+if [ -d "/usr/sbin" ]
+then
+    PATH="$PATH:/usr/sbin"
+fi
+
+if [ -d "/usr/local/sbin" ]
+then
+    PATH="$PATH:/usr/local/sbin"
+fi
