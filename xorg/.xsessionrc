@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Source the .profile when a graphical session is started
+if [ -f "$HOME/.profile" ]
+then
+    . "$HOME/.profile"
+fi
