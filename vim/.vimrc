@@ -25,6 +25,7 @@ filetype plugin indent on
 
 " Ultisnips configuration
 let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsListSnippets="<nul>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardsTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
