@@ -5,3 +5,9 @@ if [ -f "$HOME/.profile" ]
 then
     . "$HOME/.profile"
 fi
+
+# Enable scrolling using the trackpoint
+TRACKPOINT="TPPS/2 IBM TrackPoint"
+xinput set-prop "$TRACKPOINT" "Evdev Wheel Emulation" 1
+xinput set-prop "$TRACKPOINT" "Evdev Wheel Emulation Button" 2
+xinput set-prop "$TRACKPOINT" "Evdev Wheel Emulation Timeout" 200
