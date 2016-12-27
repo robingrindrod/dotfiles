@@ -36,3 +36,7 @@ if [ -d "/usr/local/sbin" ]
 then
     PATH="$PATH:/usr/local/sbin"
 fi
+
+# Set the PYTHONDONTWRITEBYTECODE environment variable so that workspaces don't
+# get cluttered up with .pyc files
+export PYTHONDONTWRITEBYTECODE='1
