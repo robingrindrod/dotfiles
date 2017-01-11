@@ -37,3 +37,4 @@ set softtabstop=4
 set tabstop=4
 
 autocmd Filetype html setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd Filetype gitcommit setlocal textwidth=72
