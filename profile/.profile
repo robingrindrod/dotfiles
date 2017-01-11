@@ -39,4 +39,4 @@ fi
 
 # Set the PYTHONDONTWRITEBYTECODE environment variable so that workspaces don't
 # get cluttered up with .pyc files
-export PYTHONDONTWRITEBYTECODE='1
+export PYTHONDONTWRITEBYTECODE='1'
