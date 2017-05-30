@@ -1,6 +1,6 @@
 [user]
 	name = Robin Grindrod
-	email = robingrindrod@live.ie
+	email = robin@deveire.com
 [alias]
 	graph = log --oneline --graph --decorate --all
 [merge]
